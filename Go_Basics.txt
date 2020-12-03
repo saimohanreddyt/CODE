@@ -1,0 +1,347 @@
+                             
+      
+                                                                                                    Go_Basics
+                                                                                                  ----------
+
+# Go Data Types
+
+>The amount of memory space allocated for variables.
+>A data type specifies the posiible values for variables.
+>The operations that can be performed on variables.
+
+
+
+Data_Types:
+----------
+
+>Numbers
+---------
+-Integer
+-Float
+-Complex Numbers
+-
+package main
+import "fmt"
+
+func main() {
+	var varByte byte = 'a'
+	var varRune rune = '♥'
+
+	fmt.Printf("%c = %d and %c = %U\n", varByte, varByte, varRune, varRune)
+}
+
+
+
+
+>Boolean
+---------
+The Boolean data type is used to represent the truth values, which can be either True or False. Boolean are commonly used in decision making statements.
+
+package main  
+import "fmt"  
+func main() {  
+   var flag = true
+   fmt.Println(flag)  
+}
+
+
+
+
+>String
+--------
+A String variable is used to hold to hold series or sequence of characters -letters, numbers, and special characters. String are immutable. Strings can either be declared using double quotes "Hello World". 
+
+// It does not allows newlines, and can contain escape sequences like `\n`, `\t` etc.
+var fstr="Hello World"
+
+// Can span multiple lines. Escape characters are not allowed.
+var sstr= `Hello world, this
+a multi-line text string.
+
+
+
+
+
+
+         #  Go Variables
+         -------------------
+
+Variables are used to represent reserved memory locations that is used to store values, when we create a variable we are a suppose to allocate some memory space for that variable.
+Go is a statically typed programming language. This means that variables always have a specific type assosiated with it and that cannot be change. Data type for a varible specifies
+
+>The amount of memory space allocated for variables.
+>A data type specifies the posiible values for variables.
+>The operations that can be performed on variables.
+
+Syntax:-
+  
+ var <name> <type>
+or
+ var <name> <type> = <expression>
+
+example:-
+  
+package main
+import "fmt"
+ 
+func main(){
+    var hello_str string
+    hello_str="Hello, World!"
+    fmt.Println(hello_str)
+}
+ 
+
+
+
+
+
+           #   Go Operations
+           --------------------
+
+Types of operations in Go Programming
+
+>Arithmetic Operations:
+----------------------
+ +  Addition
+ -  Subtraction
+ *  Multiplication
+ /  Division
+ %  Modulus
+
+package main
+import "fmt"
+func main() {
+    var a int=20
+    var b int=10
+    fmt.Println("W3Adda - Go Arithmetic Operators")
+    fmt.Println(a+b)
+    fmt.Println(a-b)
+    fmt.Println(a*b)
+    fmt.Println(a/b)
+    fmt.Println(a%b)
+   
+}
+
+
+>Assignment Operations:
+----------------------
+ =   Assignment Operator                    a=b
+ +=  Add and Assign                         a+=b is equivalent to a=a+b
+ -=  Subtract and Assign                    a-=b is equivalent to a=a-b
+ *=  Multiply and Assign                    a*=b is equivalent to a=a*b
+ /=  Divide and Assign                      a/=b is equivalent to a=a/b
+ %=  Mod and Assign                         a%=b is equivalent to a=a%b
+ <<=  Left shift AND assign                 a<<=5 is equivalent to a=a<<5
+ >>=  Right shift AND assign                a>>=5 is equivalent to a=a>>5
+ &=  Bitwise AND assign                     a&=5 is equivalent to a=a&5
+ ^=   Bitwise exclusive OR and assign       a^=5 is equivalent to a=a^5
+ |=  Bitwise inclusive OR and assign        a|=5 is equivalent to a=a|5
+
+package main
+import "fmt"
+func main() {
+    var a int =30
+    var b int =5
+
+    fmt.Printf("W3Adda - Go Assignment Operators")
+    a+=b
+    fmt.Printf("a+=b :%d\n", a)
+    a-=b
+    fmt.Printf("a-=b :%d\n", a)
+    a*=b
+    fmt.Printf("a*=b :%d\n", a)
+    a/=b
+    fmt.Printf("a/=b :%d\n", a)
+    a%=b
+    fmt.Printf("a%%=b :%d\n", a)     
+}
+
+
+
+>Comparison (Relational) Operators:
+ ---------------------------------
+ >  greater  than                    a>b returns TRUE
+ <  Less than                        a<b returns FALSE
+ >= Greater than or equal to         a>=b returns TRUE
+ <= Less than or equal to            a<=b returns FALSE
+ == is equal to                      a==b returns FALSE
+ !=  not equal to                    a!=b returns TRUE
+
+package main
+import "fmt"
+func main() {
+    var a int =20
+    var b int =10
+
+    if (a > b) {
+        fmt.Println("W3Adda - Go Relational Operators")
+        fmt.Println("a is greater than b.")
+    } else{
+        fmt.Println("W3Adda - Go Relational Operators")
+        fmt.Println("b is greater than a.")
+    }
+   
+}
+
+
+
+
+>Logical Operators:
+------------------
+ && Logical AND returns true if all expressions are true (a && b) returns false
+ || Logical OR  returns true if any expression is true   (a || b) returns true
+ !  Logical NOT returns complement of expression         !a returns false
+
+package main
+import "fmt"
+func main() {
+    var a int =20
+    var b int =10
+    var c int =25
+    var flag bool = false
+    var result bool
+    fmt.Println("W3Adda - Go Logical Operators")
+    result = (a > b) && (a > c)
+    fmt.Printf("(a>b) && (a>c) : %t\n",result)
+    result = (a > b) || (a > c)
+    fmt.Printf("(a>b) || (a>c) :%t\n",result)
+    result = !flag
+    fmt.Printf("!flag :%t\n",result)
+     
+}
+
+
+
+
+>Bitwise Operators:
+------------------
+ &   bitwise AND
+ |   bitwise OR
+ ^   bitwise XOR
+ &^  bit clear (AND NOT)
+
+package main
+import "fmt"
+func main() {
+    var a,b,c int
+    a = 50
+    b = 10
+    c = a & b       // &    bitwise AND            integers
+    fmt.Println(c)
+    c = a | b       // |    bitwise OR             integers
+    fmt.Println(c)
+    c = a ^ b       // ^    bitwise aOR            integers
+    fmt.Println(c)
+    c = a &^ b      // &^   bit clear (AND NOT)    integers
+    fmt.Println(c)
+}
+
+
+
+
+>Other Operators:
+-----------------
+&  Address of          &a generates a pointer to a
+*  Pointer to          *a denotes the variable pointed to by a
+<- Receive Operator    <- ch is the value received from channel ch
+
+
+
+
+
+    #Go Constants:
+    ---------------
+Constans refers to immutable values. Constants are basically literals whose values cannot be modified or changed during the execution of program. The Constants are created in the same way you create variables but instead of using the var keyword we use the const keyword and by convention constant names are always uppercase.
+
+Syntax:-
+const <constant_name> = value
+ 
+Examples:-
+package main
+
+import "fmt"
+
+func main() {
+  const x string = "Hello World"
+  fmt.Println(x)
+}
+
+  
+
+
+
+            #Go Decision Making Statements :
+            ------------------------------
+There are case where we want a a block of code to be executed when some condition is satisfied. In Go, we have Decision Making Statement that enable computer to decide which block of code to be execute based on some conditional choices. Decision making statement statements is also refered to as selection statements.
+
+Decision making statement evaluates single or multiple test expression which results is "TRUE" or "FALSE". The outcome of the test expression/condition helps to determine which block of statements to executed if the condition is "TRUE" or "FALSE" otherwise.
+
+In Go, we have following types of decision making statements-
+----- -------- -------- -------- -------- -------- ----- ---  
+
+if Statements: 
+-------------  
+   Block of statements executed only when specified test expression is true.
+
+
+
+if else Statements:
+-------------------
+   When we want to execute some block of code if a condition is true and another block of code if a condition is false, In such a case we use if...else statement.
+
+
+
+Nested if Statements:
+---------------------   
+   When there is an if statement inside another if statement then it is known as nested if else.
+
+
+
+Switch Statements:
+------------------
+   A switch statement evaluates an expression aganist multiple cases in order to identify the block of code to be executed. It allows to chooses among possible send or recieve operations.
+
+
+
+Select Statement:
+-----------------
+   It looks simiar to "switch" statement but is used for communication operations.
+
+
+
+
+
+            #Go Loops
+            -----------
+
+Loop statements are used to execute the block of code repeatedly for a specified number of times or until it meets a specified condition. Loop statements are very useful when we want to perform same task for multiple times.
+
+In Go Programming we have following loops-
+--- ---------- --------- --------- -------
+
+>Go For loop
+>GO Nested loop
+
+
+
+
+#Go Loop Control Statemnts
+--------------------------
+In Go, you have loop control statements that can be used to alter or control the flow of loop executions. 
+
+In Go we have following loop control statements- 
+---- ------- ------- ------- ------- ------ ----
+>break Statement
+>Continue Statement
+>goto Statement
+
+
+
+
+
+ 
+
+
+
+
+
