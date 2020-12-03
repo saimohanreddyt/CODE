@@ -1,0 +1,38 @@
+date         -Display the current time in the certain FORMAT, or set the system date.
+cal	     -Display the current date in the calender format
+uptime	     -show uptime in pretty format
+whoami       -Print the user name associated with the current effective user ID.
+uname        -Print certain system information
+users        -Output who is currently logged in according to FILE.
+free         -show detailed about memory usage and rest other free space.
+ps           -
+cd	     -Change the current directory to DIR.  The default DIR is the value of the HOME shell variable.
+pwd          -Print the name of the current working directory.
+mkdir        -Create the DIRECTORY(ies), if they do not already exist.
+ls           -List information about the FILEs (the current directory by default).
+cat	     -Concatenate FILE(s) to standard output.
+touch        -Update the access and modification times of each FILE to the current time.
+echo	     -echo is a command used to print content what we entered along with echo(echo "GOOD MORNING")
+nano	     -To place the cursor on a specific line of a file, put the line number with a '+' before the filename.  The column number can be added after a comma. When a filename is '-', nano reads data from standard input.
+grep	     -Search for PATTERNS in each FILE.
+cp	     -Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+mv	     -Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+rm	     -Remove (unlink) the FILE(s).
+less	     -
+more	     -A file perusal filter for CRT viewing.
+sort	     -Write sorted concatenation of all FILE(s) to standard output.
+chown	     -Change the owner and/or group of each FILE to OWNER and/or GROUP.
+chmod	     -Change the mode of each FILE to MODE.
+vi	     -
+history	     -Display the history list with line numbers, prefixing each modified entry with a `*'.  An argument of N lists only the last N entries.
+-v	     -
+man + help   -Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options.
+
+Listing Directory Content
+-------------------------
+-l long listing
+-a list hidden files
+-r list in reverse name
+-t list new files first
+-rt list in reverse time(old order)
+

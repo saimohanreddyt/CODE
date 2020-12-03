@@ -1,0 +1,140 @@
+             
+
+                                                                                                 Career Options in Software Development
+                                                                                             ----------------------------------------------
+
+
+
+
+1. Application Developer 
+-------------------------
+Application developers or software architects are responsible for developing, modifying, updating, testing, and debugging the source code for a software application. Primary job responsibility includes writing high-quality codes to program applications compliant with current industry standards. They are responsible for evaluating existing codes or applications. Based on the evaluation, developers perform updates and modifications. 
+
+Senior application developers are responsible for developing technical handbooks that display the design and program code of a new application. They need to collaborate with the design team and other IT staff to finalize specifications for the new application. To excel in this area of software development, the individual must excel in at least one highly in-demand programming language. 
+
+Read more: Full-Stack vs Android Developer: Which Should You Choose in 2020?
+
+
+
+
+2. Front-end Developer
+----------------------
+Front-end developers are IT experts who specialize in website interface designs. If you are actively looking for software development career opportunities as a front-end developer and interested in building the ‘client-side’ of web applications or websites, then this role is perfect for you. Front-end developers are responsible for determining the actual structure of the web pages as well as balancing the functional aspects. These tasks ensure that the proposed design is highly optimized to display across different screens including smartphones, laptops, desktop, tablets, etc. 
+
+One must have a good understanding of markup languages, such as HTML, for creating user-friendly and responsive designs. Besides, an individual must have a good knowledge of the latest digital technologies along with the skills to combine visual design and usability.
+
+Learn about full stack developer salary in India
+
+
+
+
+3. Back-end Developer
+----------------------
+Back-end developers are considered the pillar of the software application development lifecycle as they are responsible for the server-side of the application. Responsibilities of a back-end software developer include writing clean code for developing a new application, performing UI testing, troubleshooting and debugging the application, employing the latest technologies to improve legacy applications, and building reusable codes and libraries. 
+
+If you are searching for a stable career in the software development domain, then back-end developer can be a good start. However, you must have a comprehensive and in-depth understanding of software development processes. Excellent analytical skills, time-management skills, problem-solving attitude, and knowledge of HTML, CSS, JavaScript, and CMS framework can help you land a job in a reputed company.
+
+
+
+4. Data Scientist
+-------------------
+Data scientists are among the most in-demand IT professionals across the world. Data scientists have risen to the top over a couple of years due to their high demand, higher salaries, better job satisfaction, and excellent prospects. 
+
+To begin your career as a data scientist, you must be aware of machine learning techniques as well as advanced statistical concepts. You should master new technologies with good multilingual coding experience such as Java, JavaScript, C, and C++. Besides coding, you must excel in statistics and data mining techniques and possess a good understanding of various web services. 
+
+Knowledge in distributed data and computing tools, such as MySQL, Spark, MapReduce, and Hadoop, can make you stand out. As data science is an entirely new field in Information Technology (IT), it is recommended to pursue a tertiary qualification to increase your chances of becoming one. You can opt for courses ranging from certification to masters in data science and machine learning from a reputed institute, which is an excellent option for gaining extensive knowledge and kick-starting your career. Learn more about data scientist salary in India.
+
+
+
+5. Game Developer
+------------------
+Playing video games on a desktop during childhood is a memory worth cherishing. If you have grown up with a dream to build your career in game development, then you must know some technical aspects of this challenging domain of software development. Game developers are responsible for constructing a game engine and translating requirements into complicated yet clean code. The primary job responsibilities of a game developer are producing prototypes, animating characters, and generating game scripts. 
+
+An expert developer must have a sound knowledge of APIs, libraries, 3D animation, artificial intelligence, 3D rendering, and other programming specialties. The internet is flooded with numerous software development career opportunities but game development is for those who want a thrilling and exciting profession. 
+
+A bachelor’s degree in computer science, machine learning, or game technology can be the first step towards beginning your career in the game development industry.  
+
+
+
+
+6. Quality Analyst
+-------------------
+Quality analysts are also known as test engineers or quality assurance analysts. They are responsible for evaluating systems, software, applications, and other digital products. Product evaluation ensures that they are free from any technical errors, defects, bugs, and that they meet all quality standards. Developing the design and execution strategy for test plans is a critical role of quality analyst engineers. Validating the test plans and processes to predefined quality standards is one of the main focus areas in this challenging profession. 
+
+Senior professionals design quality assurance policies and ensure that the product is compliant with the latest quality standards. The demand for quality analysts has increased considerably since there has been quite a considerable surge in the development of innovative products and technologies over the past couple of years. 
+
+
+
+7. Mobile Test Engineer
+------------------------
+If you want to build your career in software development and find immense interest in wireless technology, then mobile test engineer is certainly the profession you must consider. 
+
+The rise in mobile technology and a significant increase in mobile phone manufacturing indicate the future scope for mobile test engineers. They are responsible for manual and automated testing of mobile devices like mobile phones, tablets, etc.
+
+Since mobile devices run on different operating systems, it is the core duty of mobile test engineers to initiate timely updates and eliminate errors to ensure seamless usability. They work closely with the research & development team to test various elements of the latest mobile technology. 
+
+Usability testing, functional checks, and security compliance are some of the prime tasks of this dynamic job role. 
+
+Know more: Mobile Marketing – Make the Most of Smartphones and Tablets
+
+
+
+8. Full-stack Developer
+------------------------
+Probably the most skillful and challenging profession in software development career opportunities. A full-stack developer has to work progressively on both front-end and back-end systems. To be able to begin your career in this prominent field, you must display excellent knowledge of client-side as well as server-side of applications and systems. Learn more about full stack developer salary scope in India.
+
+To develop a highly immersive application, one must have hands-on experience in the latest technologies and languages such as PHP, HTML, C#, Java, and JavaScript. Designing user-interface, developing servers & app architecture, building databases, and writing code for applications are some of the primary responsibilities of a full-stack developer. 
+
+You have to be familiar with MySQL, MongoDB, and Oracle database technologies to build a multi-spectral app. With excellent logical and analytical attributes, you will be accountable for ensuring cross-platform optimization of applications. If you want to develop your career as a full-stack developer, you can upgrade your skills by enrolling in upGrad’s full-stack development program. 
+
+
+
+9. DevOps Engineer
+-------------------
+DevOps engineers are highly skilled professionals with expertise in the entire software development lifecycle and knowledge of the latest automation tools. They work closely with developers and other IT staff to develop a strategy that bridges the gaps between various IT departments. 
+
+If you are interested in deployment tasks and network operations, then DevOps engineering is your spot. The job responsibilities are divided into multiple categories that include DevOps Evangelist (an expert who implements DevOps); Security Engineer (responsible for monitoring and performing security checks on the product); Release Manager (one who releases new features); Automation Expert (IT professional with expertise in achieving tool automation and orchestration); Quality Assurance (one who ensures security compliance); Software Developer (the programmer who develops the code); and Software Tester (one who is responsible for product testing). 
+
+
+
+
+10. Cloud Engineer
+-------------------
+Cloud developers, similar to software developers, design and build applications on virtual systems usually known as Cloud. These Cloud systems run on a physical location and that’s where Cloud engineers or Cloud developers come into the scenario. It is undoubtedly a significant area that one must explore while looking for software development career opportunities. 
+
+You will have to monitor and manage your organization’s cloud service delivery model that includes IaaS, SaaS, or PaaS. Since small to large companies are adopting Cloud architecture for storing their business-critical data and running apps for anytime, anywhere access, the demand for Cloud developers is emerging abruptly. 
+
+You will be responsible for managing and monitoring Cloud architecture, scale applications, and systems, analyzing security concerns, controlling access rights, optimizing applications, etc.  
+
+Learn about: Cloud Engineer Salary in India
+
+
+
+
+11. Cloud Consultant
+---------------------
+As a Cloud consultant, you will be accountable for suggesting and recommending best Cloud practices to organizations including startups, mid-sized firms, large enterprises, and multinational corporations. To deliver reliable advice, you must possess outstanding knowledge and understanding of different technical aspects of the Cloud. 
+
+Since businesses will approach you to seek consultation on how to improvise their overall strategy, always remember that your advice can make or break a business. You must have extensive knowledge of the Cloud marketplace, security algorithms, access control, and management techniques, infrastructure safety compliance, etc.
+
+You must know how to utilize APIs and migrate legacy applications while protecting security standards. Cloud consultants are highly paid professionals with a bright prospect. 
+
+
+
+
+12. Embedded System Engineer
+-----------------------------
+Embedded systems are a combination of hardware components and software applications designed to perform specific tasks. Some of the examples of embedded systems include analog sensors, microprocessors, microcontrollers, etc. An embedded software program is the code that runs the entire system without manual intervention or human output. Sounds challenging? If yes, then you must be interested in exploring more about embedded system engineers. 
+
+To begin your career in software development as an embedded system engineer, you will need to have extensive knowledge of programming languages like Assembly language, Python, ADA, Rust, C, C++, etc. However, having a good understanding of different types of memory systems, such as RAM, Flash, and ROM, would be beneficial in achieving your career goals. 
+
+
+
+
+13. Language Developer
+-----------------------
+In the digital world, we are familiar with the latest programming languages such as Python, PHP, and JavaScript. Have you ever thought about who created these languages? Professionals who design programming languages are called language developers or compilers. These professionals play a vital role in digitalization and transforming businesses to the next level. 
+
+Today, we use Ruby, Xamarin, Swift, Scala, etc. as these languages are highly responsive and work across platforms. The masterminds behind these languages understand the core perspectives of different operating systems and know-how to structure a language that works progressively on various platforms. 
+
+So, if you want to be a language developer or compiler, you must possess extensive knowledge about different operating systems and architectures.

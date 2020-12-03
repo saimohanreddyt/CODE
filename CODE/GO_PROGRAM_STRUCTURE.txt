@@ -1,0 +1,59 @@
+
+                                                                                                           Go_Program_Structure
+                                                                                                          ----------------------
+
+Like any other programming language Go language have specification avalible for program structure, every Go program is consist of following building blocks-
+
+
+>Documentation block
+
+/*
+Program Name: First Go Program
+Version: 1.0
+Description: Go program basic program structure.
+Author: @W3Adda
+Date Created:21-06-2018
+*/
+-----------------------
+
+
+>Package Decleration
+
+package main
+
+Here we define the package name in which this program would included. Go program runs in packages, so it is required to define a package. Every package has a name and path associated with it.
+---------------------------------------------
+
+
+>Preprocessor Statements
+
+import "fmt"
+
+This is the section where we define all the pre-processor statements. The "import" pre-processor statements tells the compiler to import required packages prior to complilation of any Go program.
+--------------------------------------------
+
+
+>The main () function
+
+This is the most vital part of each and every Go program. it is mandatory for Go program to have main () function. The Go program execution starts with main () function. Go program can not be executed without the main function.
+---------------------------------------------
+
+
+
+>Local Variable Declarations
+
+In this section we declare all the variable that will be used in main () Function.
+-----------------------------------------------------
+
+
+>Statements and Expressions
+
+This is the section where we place our main logic of the program which included the executable statements, that tell the computer to perform a specification action. Program statement can be an input-output statements, arithmetic statements, control statements, simple assignment sttatements ans any other statements and it also include comments that are enclosed within /* and */
+-----------------------------------------------------
+
+
+
+>User defined functions
+
+This is where we put all the user defined sub-program or custom functions created to program a specific task and called inside the main () function.
+-------------------------------------------------------
