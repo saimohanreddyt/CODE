@@ -1,0 +1,275 @@
+
+
+
+
+                                                                                                 Golang_basic_Easy
+                                                                                                 ------------------
+
+
+
+
+
+
+
+1. Write the syntax to create a function in Go programming language?
+
+   a.func function_name( [parameter list] )  
+{  
+   body of the function  
+} 
+  b.  func( [parameter list] ) [return_types]  
+{  
+   body of the function  
+}   
+ c.func function_name [return_types]  ( [parameter list] )
+{  
+   body of the function  
+}   
+# d.func function_name( [parameter list] ) [return_types]  
+{  
+   body of the function  
+} 
+
+
+2. Explain the syntax for 'for' loop.
+#   a. for [condition |  ( init; condition; increment ) | Range]  
+{  
+   statement(s);  
+}  
+   b.for [  ( init; condition; increment ) | Range]  
+{  
+   statement(s);  
+}  
+  c.for [condition |  ( init; condition; increment ) ]  
+{  
+   statement(s);  
+}  
+   d.none
+
+
+3.Does Go support type inheritance?
+#A.No 
+B.yes  
+
+
+4. What is the output of the following code snippet?
+func main() {
+    fmt.Println("Hello, 世界")
+    a := 4
+    b := 5.0
+    fmt.Printf("%T\n",&a)
+    fmt.Printf("%T\n",&b)
+}
+1. Int, float32
+2. Int, float64 
+3. Float64, int
+#4. Compilation error
+
+
+5. What is the type of 1 + 0i ?
+1. Int
+2. Float64
+#3. complex128
+4. uint
+
+
+6. What is the default value of a local variable in Go?
+#A.0 
+B.None
+C.Nil
+D.None of the above
+
+
+7. What is the main difference between array and slice in golang?
+1. Array is dynamically size, whereas slice is fixed sized
+#2. Array is fixed size, whereas slice is dynamically sized 
+3. No difference at all
+4. Indexing is different
+
+
+8. Can you declare multiple types of variables in single declaration in Go?
+#A.Yes 
+B.NO
+
+
+9. What are the benefits of using Go programming?
+a.Support for environment adopting patterns similar to dynamic languages. For example type inference (x := 0 is valid declaration of a variable x of type int).
+b.Compilation time is fast.
+c.Conciseness, Simplicity, and Safety.
+#d.All the above 
+
+
+10. What verb should we use with fmt.Printf to print boolean?
+a. %v
+#b. %t 
+c. %b
+d. %s
+
+
+11. Does Go support type inheritance?
+a. Yes
+#b. No 
+
+
+12. Is it possible to declare multiple types of variables in a single declaration in Go?
+var a, b, c = 3, 4, “foo”
+#a. Yes
+b. No
+
+
+13. Is it possible to make package content directly accessible without need to be preceded by “fmt.”?
+a. Yes. import “fmt”
+b. Yes. import _ “fmt”
+#c. Yes. import . “fmt” 
+d. No
+
+
+14. How to compile the following code to the binary file with name “eight”?
+package main
+import "fmt"
+func main() {
+        fmt.Println("Hi")
+        }  
+a. go build 8.go eight
+#b. go build -o eight 8.go 
+c. go build 8.go -o eight
+
+
+
+15. On what data types you can use “for - range” statement?
+a. array, slice, map 
+#b. array, slice, map, string 
+c. slice, map, string
+d. slice, map
+
+
+16. Does Go have a ternary operator?
+a. Yes
+#b. No         //inline if (iif), or ternary if. An expression a ? b : c //
+
+
+17. Is it possible to define a constant of an array type float32?
+```go
+package main
+import "fmt"
+const array = []float32{0.1, 0.2, 0.3}
+func main() {
+        fmt.Printf("%v", array)
+}
+```
+a. Yes
+#b. No 
+
+
+18. What is the output of the following code snippet ?
+package main
+import "fmt"
+func main() {
+        a := 5
+        b := 8.1
+        fmt.Println(a + b)      // fmt.Println(float32(a) + float32(b)) // @ 13.1
+}
+a. 13.1
+b. 13
+#c. Compilation error 
+
+
+19. What is the output of the following code snippet?
+package main
+import "fmt"
+func main() {
+    a := [2]int{5, 6}
+    b := [2]int{5, 6}
+    if a == b {
+        fmt.Println("equal")
+    } else {
+        fmt.Println("not equal")
+    }
+}
+#a. equal 
+b. Not equal
+c. Compilation error
+
+
+20. Which of the following operator increases integer value by one in Go?
+#a. ++ 
+b. %
+c. --
+d. None of the above.
+
+
+21. Which of the following operator checks if the values of two operands are equal or not in Go?
+#a. != 
+b. <>                      // == //
+c. equal                     
+d. None of the above    
+
+
+22. What is the default value of a local variable in Go?
+a.nil
+b.1
+#c.0 
+d.none
+
+
+23. What is the output of the following code ?
+package main
+import “fmt”
+func main() {
+fmt.Println(4==99)
+}
+a. equal
+b. Not equal
+#c. false 
+d. Compilation error
+
+
+24. What is the output of the following code snippet ?
+sum := 0
+nums := []int{2, 4, 6}
+for _, num := range nums {
+    sum += num
+}
+fmt.Println(sum)
+#a. 12 
+b. 8
+c. 10
+d. Compilation error
+
+
+25. Is “maps” value types in Golang ?
+a. true
+#b. False 
+
+
+26. Which of the following is correct about slice in Go?
+a. Go Slice is an abstraction over Go Array.
+b. It provides many utility functions required on Array and is widely used in Go programming.
+c. To define a slice, you can declare it as an array without specifying size or use make function to create the one.
+#d. All of the above 
+
+
+27. Which of the following operator gives remainder after an integer division in Go?
+a. ^
+#b. % 
+c. $
+d. None of the above
+
+
+28. Does Go support method overloading?
+A - yes
+#B - no 
+
+
+29. Which of the following are components of  workspace in GO?
+A. src contains GO source files organized into packages
+B. pkg contains package objects and
+C. bin contains executable commands
+#D. All of these 
+
+
+30. List out the built in support in GO?
+A. Container: container/list , container/heap
+B. Web Server: net/http
+C. Cryptography: Crypto/md5 , crypto/sha1
+#D. All of these 
